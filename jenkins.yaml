@@ -54,8 +54,6 @@ kube:
           memory: false
           mountPath: "/var/maven/"
       yamlMergeStrategy: "override"
-groovy:
-  - url: https://raw.githubusercontent.com/noto-isi-int-s/cloudbees-ci-config-bundle/master/groovy/create-pipeline-template-job.groovy
 credentials:
   system:
     domainCredentials:
